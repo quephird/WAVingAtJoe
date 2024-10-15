@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		874F51A02CBDC90900B12037 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874F519F2CBDC90900B12037 /* main.swift */; };
+		874F51A02CBDC90900B12037 /* MakeWAV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874F519F2CBDC90900B12037 /* MakeWAV.swift */; };
+		874F51A72CBDCE8700B12037 /* WAVHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874F51A62CBDCE8700B12037 /* WAVHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +24,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		874F519C2CBDC90900B12037 /* WAVingAtJoe */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WAVingAtJoe; sourceTree = BUILT_PRODUCTS_DIR; };
-		874F519F2CBDC90900B12037 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		874F519C2CBDC90900B12037 /* makewav */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = makewav; sourceTree = BUILT_PRODUCTS_DIR; };
+		874F519F2CBDC90900B12037 /* MakeWAV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeWAV.swift; sourceTree = "<group>"; };
+		874F51A62CBDCE8700B12037 /* WAVHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAVHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +51,7 @@
 		874F519D2CBDC90900B12037 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				874F519C2CBDC90900B12037 /* WAVingAtJoe */,
+				874F519C2CBDC90900B12037 /* makewav */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,7 +59,8 @@
 		874F519E2CBDC90900B12037 /* WAVingAtJoe */ = {
 			isa = PBXGroup;
 			children = (
-				874F519F2CBDC90900B12037 /* main.swift */,
+				874F519F2CBDC90900B12037 /* MakeWAV.swift */,
+				874F51A62CBDCE8700B12037 /* WAVHeader.swift */,
 			);
 			path = WAVingAtJoe;
 			sourceTree = "<group>";
@@ -79,7 +82,7 @@
 			);
 			name = WAVingAtJoe;
 			productName = WAVingAtJoe;
-			productReference = 874F519C2CBDC90900B12037 /* WAVingAtJoe */;
+			productReference = 874F519C2CBDC90900B12037 /* makewav */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -120,7 +123,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				874F51A02CBDC90900B12037 /* main.swift in Sources */,
+				874F51A02CBDC90900B12037 /* MakeWAV.swift in Sources */,
+				874F51A72CBDCE8700B12037 /* WAVHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,7 +255,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GARV9392W2;
 				ENABLE_HARDENED_RUNTIME = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = makewav;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -262,7 +266,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GARV9392W2;
 				ENABLE_HARDENED_RUNTIME = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = makewav;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
